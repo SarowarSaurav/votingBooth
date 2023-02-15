@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { GoogleAuthProvider, getAuth, signInWithPopup, signInAnonymously, signOut } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyC91BM3u0TFtf3aM_9-abe4qlVrpqijuzo",
-    authDomain: "votingbooth-693ab.firebaseapp.com",
-    databaseURL: "https://votingbooth-693ab-default-rtdb.firebaseio.com",
-    projectId: "votingbooth-693ab",
-    storageBucket: "votingbooth-693ab.appspot.com",
-    messagingSenderId: "254030087225",
-    appId: "1:254030087225:web:068f9c1a586c23e97379e8"
+    databaseURL: "https://vote-7a348-default-rtdb.firebaseio.com",
+    apiKey: "AIzaSyBgxW8-x-qXwqhK3yonvBEsalFHsjnnUPY",
+  authDomain: "vote-7a348.firebaseapp.com",
+  projectId: "vote-7a348",
+  storageBucket: "vote-7a348.appspot.com",
+  messagingSenderId: "1027031216574",
+  appId: "1:1027031216574:web:099f426794b07699cd09ef"
 };
 
 // Initialize Firebase
