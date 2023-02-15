@@ -136,8 +136,8 @@ function PollCreate() {
             </Helmet>
             <header>
                 <div className="appInfo">
-                    <h2>Enter your poll question below along with options and we will create a link you can share with everyone to see everyone's preferences</h2>
-                    <p className='tagline'>(Reducing the stress of decision making, one poll at a time) </p>
+                    <h2>Create your poll</h2>
+                    <p className='tagline'> Submit information</p>
                 </div>
             </header>
             <main className='wrapper'>
