@@ -144,12 +144,12 @@ function PollCreate() {
                 <div className='pollCreateForm'>
                     <form onSubmit={handleSubmit}>
                         <label htmlFor='userInput' className='sr-only'>Question</label>
-                        <input maxLength='140' type="text" id='userInput' onChange={handleChange} value={question} placeholder='What would you like to ask?' className='question' required />
+                        <input maxLength='140' type="text" id='userInput' onChange={handleChange} value={question} placeholder='Title' className='question' required />
                         <div className='answers'>
                             <label htmlFor='answer1' className='sr-only'>Option #1</label>
-                            <input maxLength='140' type='text' id='answer1' onChange={handleAnswer1} value={answer1} placeholder='Required' required />
+                            <input maxLength='140' type='text' id='answer1' onChange={handleAnswer1} value={answer1} placeholder='Team 1' required />
                             <label htmlFor='answer2' className='sr-only'>Option #2</label>
-                            <input maxLength='140' type='text' id='answer2' onChange={handleAnswer2} value={answer2} placeholder='Required' required />
+                            <input maxLength='140' type='text' id='answer2' onChange={handleAnswer2} value={answer2} placeholder='Team 2' required />
                             <label htmlFor='answer3' className='sr-only'>Option #3</label>
                             <input maxLength='140' type='text' id='answer3' onChange={handleAnswer3} value={answer3} placeholder='Optional' />
                             <label htmlFor='answer4' className='sr-only'>Option #4</label>
