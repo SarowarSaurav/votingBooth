@@ -1,10 +1,10 @@
 import { useContext } from 'react';
 import { AuthContext } from './AuthContext';
 import { Navigate } from 'react-router-dom';
-import { signInWithGoogle, signInAnon } from '../helpers/firebase';
+import { signInWithGoogle} from '../helpers/firebase';
 import { Helmet } from 'react-helmet-async';
 import '.././styling/Login.scss';
-import { FaGoogle, FaGhost } from 'react-icons/fa';
+import { FaGoogle} from 'react-icons/fa';
 
 // Login Component to allow user to log in to account to save Polls
 function Login() {
