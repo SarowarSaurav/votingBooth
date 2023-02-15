@@ -46,9 +46,7 @@ function NavBar() {
                 {/* Depending on click state the ul will have a difference class. We use the differing classes (along with CSS) to render the mobile nav vs full screen nav */}
                 <ul className={click ? 'navmobile' : 'nav'}>
                     {/* Each Link below has an onClick even that sets click status to false and as such (through CSS & the ul above) will close the mobilenav  */}
-                    <li>
-                        <Link to="/about" onClick={closeMobileMenu} >About</Link>
-                    </li>
+                   
                     <li>
                         <Link to="/saved" onClick={closeMobileMenu} >Saved Polls</Link>
                     </li>
