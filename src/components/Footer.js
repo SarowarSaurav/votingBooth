@@ -6,14 +6,11 @@ function Footer() {
         <footer>
             <div className='footerContent'>
                 <p>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/VotingBooth/votingBooth">Created at Juno</a>
+
                 </p>
-                <p className='collaborators'>Collaborators -
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.connorrobock.com/">Connor,</a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://kaitlynwcodes.ca/">Kaitlyn,</a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://portfolio.gourlay.me/">Nick,</a>
-                    and
-                    <a target="_blank" rel="noopener noreferrer" href="https://paridhishah.dev/">Paridhi</a>
+                <p className='collaborators'>Powered By -
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.batbangladesh.com/">Digital Business Solutions</a>
+
                 </p>
             </div>
         </footer>
