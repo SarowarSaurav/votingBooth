@@ -33,7 +33,7 @@ function NavBar() {
             <div className="navContent">
                 {/* H1 and Home Button in Nav */}
                 <h1>
-                    <Link to="/" className="homeButton">Voting Booth</Link>
+                    <Link to="/" className="homeButton">VStduios || Admin </Link>
                 </h1>
                 {/* onClick on this div set's click state to the opposite of it's existing state, this openeing or closing the hambirger menu. Conditional rendering decides whether to show hamburder button or close icon */}
                 <div onClick={handleClick}>
